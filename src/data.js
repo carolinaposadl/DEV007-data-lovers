@@ -30,7 +30,7 @@ export const ordenarPokemones = (dataPokemon, sortOrder) => { //dataPokemon y so
       if (lowerCatchRate > higherCatchRate)
         return 1;
     }
-    return 0;
+    return 0; //en caso de que no se ejecute ninguna función
   });
   return dataPokemon; //se retorna el array ordenado
   //console.log(dataPokemon);

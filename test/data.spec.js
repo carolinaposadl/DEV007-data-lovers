@@ -17,9 +17,10 @@ const pokemonWater = [{ name: "squirtle", type: ["water"] }];
 const pokemonFire = [{ name: "charmander", type: ["fire"] }];
 const pokemonElectric = [{ name: "pikachu", type: ["electric"] }];
 
-// Pruebas del filtro por tipo de pokemon
+
 
 describe("filtroPokemones", () => {
+  // Pruebas del filtro por tipo de pokemon
   it("Debería retornar el tipo grass", () => {
     expect(filtroPokemones(data, "grass")).toEqual(pokemonGrass);
   });
