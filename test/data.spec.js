@@ -1,6 +1,6 @@
 import { filtroPokemones, ordenarPokemones } from "../src/data.js";
 
-//-----------------------------------Test del filtro de pokemones
+//------------------------- Test de la función filtro -------------------------
 //Data ficticia simulando la data real
 const data = {
   pokemon: [
@@ -65,7 +65,7 @@ describe("filtroPokemones", () => {
   });
 });
 
-//-----------------------------------Test función ordenar
+//------------------------- Test de la función ordenar -------------------------
 //Data ficticia simulando la data real
 const dataPokemon = [ 
   {

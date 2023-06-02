@@ -9,12 +9,11 @@ const logoPokemon = document.getElementById("imagenLogoPokemon");
 // Refrescar la página al hacer clic en la imagen del logo
 logoPokemon.addEventListener("click", () => {
   //al hacer click en el logo que trajimos arriba con la id se recarga la página
-  location.reload(); //-reload se usa para recargar la página
+  location.reload(); //reload se usa para recargar la página
 });
 
-// --------------------------- HISTORIA DE USUARIO 1 : Creación de la función de la tarjeta de pokemones para reusarla después
-const tarjetaPokemon = (pokemon) => {
-  //se extraen las propiedades del objeto pokemon con la función flecha
+//-------------------- HISTORIA DE USUARIO 1: visualización tarjeta de pokemones --------------------
+const tarjetaPokemon = (pokemon) => { //se extraen las propiedades del objeto pokemon con la función flecha
   const img = pokemon.img;
   const name = pokemon.name;
   const height = pokemon.size.height;
@@ -35,7 +34,8 @@ const tarjetaPokemon = (pokemon) => {
     </div>
   `;
   //Establecemos el contenido de la tarjeta con .innerHTML
-  //los ${template string} permiten que se inserte el valor original dela propiedad
+  //los ${template string} permiten que se inserte el valor original dela propiedad.
+  //los ${} permiten la interpolación de variables y expresiones dentro de las cadenas de texto.
   return card; //Aquí retornamos el elemento de la tarjeta creado
 };
 
@@ -46,10 +46,9 @@ pokemones.forEach((pokemon) => {
   contenedorPokemones.appendChild(card);
   //appendChild se usa para mostrar la tarjeta en el html (contenedor_pokemones)
   //el forEach hace que el proceso de crear una tarjeta se repita con cada pokemon
-  //la tarjeta creada la traemos de data.js
 });
 
-// --------------------------- HISTORIA DE USUARIO 2: Filtro de pokemones
+//-------------------------- HISTORIA DE USUARIO 2: filtro por tipo --------------------------
 /*const pokemonesGrass = filtroPokemones(data, "grass"); console.log(pokemonesGrass); esto nos sirve para comprobar que funciona el filtro*/
 
 const valoresLista = document.getElementById("lista-desplegable-filtrar");
@@ -78,7 +77,7 @@ valoresLista.addEventListener("change", () => {
   }
 });
 
-//----------------------------------- HISTORIA DE USUARIO 3: Filtro de ordenamiento
+//-------------------------- HISTORIA DE USUARIO 3: filtro ordenamiento --------------------------
 
 const ordenarValores = document.getElementById("lista-desplegable-ordenar");
 ordenarValores.addEventListener("change", () => {
