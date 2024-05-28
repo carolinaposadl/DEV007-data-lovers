@@ -6,8 +6,7 @@
 * [2. Implementación del proyecto](#2-implementación-del-proyecto)
 * [3. Encuestas](#3-encuestas)
 * [4. Historias de usuario](#4-historias-de-usuario)
-* [5. Prototipos de baja fidelidad](#5-prototipos-de-baja-fidelidad)
-* [6. Prototipos de alta fidelidad](#6-prototipos-de-alta-fidelidad)
+* [5. Prototipo de baja fidelidad](#5-prototipo)
 * [7. Test de usabilidad](#7-test-de-usabilidad)
 
 ***
@@ -105,19 +104,7 @@ Definición de terminado
 [ ] Todo el código está subido a la rama principal de repositorio.
 [ ] Hemos publicado la historia a una página de GitHub pages.
 
-## 5. Prototipos de baja fidelidad
-
-Creamos los prototipos de baja fidelidad usando lápiz y papel. Aquí están las fotos: 
-
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/6524de7d-7e2a-4c57-aa30-2a3270921ab4)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/ce9cc10d-c111-41e7-ba05-c0fb19b39541)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/3db45489-7d8a-4b7e-9e04-45fa04c17d63)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/fc0a1345-0ee0-44e9-918b-1b547aa1f0fe)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/f7854474-7de6-4180-97fd-c2282704270c)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/be4febfb-2f1b-42b9-838a-5f6cd452514c)
-![image](https://github.com/carolinaposadl/DEV007-data-lovers/assets/129551206/6a9d7135-0cf2-423e-8ead-20d788e852fc)
-
-## 6. Prototipos de alta fidelidad
+## 5. Prototipo
 Creamos los prototipos de alta fidelidad usando Figma. 
 
 Aquí está el link para acceder a la vista del prototipo en Figma: 
